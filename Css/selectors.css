@@ -1,0 +1,28 @@
+/*Star*/
+
+*{
+
+	border: 1px solid lightgrey;
+}
+
+li a{
+
+	color: red;
+}
+
+
+h1 + ul {
+
+	border: 2px solid green;
+}
+
+
+a[href="https://www.google.com"]{
+
+	background:blue;
+}
+
+li : nth-of-type (1){
+
+	background:purple;
+}
