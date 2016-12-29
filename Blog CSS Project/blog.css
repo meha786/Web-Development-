@@ -1,0 +1,27 @@
+.date{
+
+	color: green;
+	text-transform: uppercase;
+}
+
+body{
+
+
+	border: 20px solid purple;
+	padding: 20px;
+	width: 50%;
+	margin: auto;
+	background-image: url("https://s-media-cache-ak0.pinimg.com/736x/5d/27/42/5d27423c37633a586fbd7bf8c2a1aaaa.jpg"); 
+}
+
+.quote{
+	border-left: 5px solid green;
+	padding-left: 5px;
+}
+
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
