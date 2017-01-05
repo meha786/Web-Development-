@@ -1,3 +1,15 @@
+
+// hiogher order function
+// function we can pass into another function
+
+// setInterval(function(){ console.log("I am an anonymous function");},2000)
+function sing()
+{
+	console.log("twinkle twinkle little star");
+	console.log("how i wonder");
+}
+	//setInterval(sing,1000)
+
 function kebabToSnake1(str)
 {
 	var newstr =  str.replace(/-/g,"_");
