@@ -1,0 +1,44 @@
+$("h1").css("color","yellow")
+[h1]
+doc
+VM46:1 Uncaught ReferenceError: doc is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM46:1
+document.querySelector("h1").style.color = "green"
+"green"
+var styles = {
+    color: "red",
+    backgroud: "pink",
+    border: "2px solid purple"}
+undefined
+$("h1").css(styles);
+[h1]
+var styles = {
+    color: "red",
+    background: "pink",
+    border: "2px solid purple"}
+undefined
+$("h1").css(styles);
+[h1]
+$("li").css("color","blue");
+[li, li, li#Sweetest]
+var lis = document.querySelectorAll("li"
+VM259:1 Uncaught SyntaxError: missing ) after argument list
+var lis = document.querySelectorAll("li");
+undefined
+for(var i=0;i<lis.length;i++){
+    lis[i].addEventListener("click",function(){
+        this.style.color = "pink";})}
+undefined
+for(var i=0;i<lis.length;i++){
+    lis[i].this.style.color = "pink"};
+VM312:2 Uncaught TypeError: Cannot read property 'style' of undefined
+    at <anonymous>:2:16
+(anonymous) @ VM312:2
+for(var i=0;i<lis.length;i++){
+    lis[i].style.color = "pink"};
+"pink"
+$("li").css({);
+VM334:1 Uncaught SyntaxError: Unexpected token )
+$("li").css({border : "3px dashed purple"});
+[li, li, li#Sweetest]
